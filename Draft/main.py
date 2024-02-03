@@ -5,7 +5,7 @@ GPT4 = "gpt-4"
 GPT3 = "gpt-3.5-turbo-0613"
 
 # Open the file
-file_path = 'OPENAI_API_KEY.txt'  # Replace with your OPENAI_API_KEY.txt.txt path
+file_path = './OPENAI_API_KEY.txt'  # Replace with your OPENAI_API_KEY.txt.txt path
 file = open(file_path, 'r')
 
 # Read the contents
